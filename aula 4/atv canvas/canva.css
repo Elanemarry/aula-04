@@ -1,0 +1,16 @@
+body{
+text-align: center;
+background-image: url(Imagens/1450022210.jpg);
+background-position: center;
+background-size: cover;
+}
+h1{
+    color: rgb(8, 8, 8);    
+}
+#myCanvas{
+    background-color: rgb(255, 241, 241);
+    border-radius: 30px;
+    border-width: 5px;
+    border-color: rgb(48, 9, 9);
+    color: rgb(30, 10, 49);
+}

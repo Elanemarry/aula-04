@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>linha</title>
+    <link rel="stylesheet" href="canva.css">
+</head>
+<body>
+    <p><h1>linha</h1></p>
+    <canvas width="400" height="200" id="myCanvas" style="border: 5px solid rgb(78, 3, 3);"></canvas>
+    <script type="text/javascript">
+     var c=document.getElementById("myCanvas");
+     var ctx=c.getContext("2d"); //ctx é usada para consultar o canvas
+     ctx.fillStyle="blue"; //cor da linha
+     ctx.moveTo(50,150); //iniciar linha     
+     ctx.lineTo(250,148); //finalizar a linha, ultima coodernada
+     ctx.stroke(); //mostra a linha
+
+     </script>
+    
+</body>
+</html>
